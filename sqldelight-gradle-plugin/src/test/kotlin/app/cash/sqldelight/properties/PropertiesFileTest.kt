@@ -62,6 +62,7 @@ class PropertiesFileTest {
         |  maven {
         |    url "file://${"$"}{rootDir}/../../../../build/localMaven"
         |  }
+        |  maven { url "https://s01.oss.sonatype.org/content/repositories/snapshots" }
         |  mavenCentral()
         |}
         |
